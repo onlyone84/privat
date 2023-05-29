@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mywebsite</title>
+    <link rel="stylesheet" href="./css/mysite.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#">Curiculum Vitae</a>
+            <a onclick="scroll_to_kontak()" class="ct">Contact</a>
+            <a href="#">About Me</a>
+        </nav>
+
+        <form class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="logreg-box">
+                <div class="text-hci">
+                    <h2>Cloudnime</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos qui ex nemo. Facilis inventore odit eius nisi nulla quod a, sequi rem reprehenderit similique aliquam odio minus fuga dicta error!</p>
+                </div>
+
+                <div class="sosial-icons">
+                    <h3 class="title">Follow Me</h3>
+                    <a href="#"><i class="fa-brands fa-whatsapp wa"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fb"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-google gmail"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="kontak">
+            <div class="wrapper">
+                <div class="card text-center">
+                    <h2 class="judul">github</h2>
+                    <i class="fa-brands fa-github icons"></i>
+                    <p class="desc">onlyone84</p>
+                    <button id="fgithub" class="btn">FOLLOW</button>
+                </div>
+                <div class="card text-center">
+                    <h2 class="judul">Whatsapp</h2>
+                    <i class="fa-brands fa-whatsapp wa icons"></i>
+                    <p class="desc">AwanD</p>
+                    <button class="btn">FOLLOW</button>
+                </div>
+                <div class="card text-center">
+                    <h2 class="judul">facebook</h2>
+                    <i class="fa-brands fa-facebook fb icons"></i>
+                    <p class="desc">awan</p>
+                    <button id="ffacebok" class="btn">FOLLOW</button>
+                </div>
+                <div class="card text-center">
+                    <h2 class="judul">discord</h2>
+                    <i class="fa-brands fa-discord dc icons"></i>
+                    <p class="desc">Soraa</p>
+                    <button id="fdiscord" class="btn">FOLLOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
