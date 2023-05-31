@@ -114,7 +114,7 @@ body {
     width: 75%;
     height: 550px;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(252, 252, 252, 0)),
-    url(/img/rem.jpg);
+    url("/img/rem.jpg");
     -webkit-filter: blur(.5px);
     filter: blur(.5px);
     background-size: cover;
